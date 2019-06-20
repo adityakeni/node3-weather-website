@@ -1,19 +1,3 @@
-console.log('Client side javascript file is loaded.')
-
-// fetch('http://localhost:3000/weather?address=ponda').then((response) => {
-//     response.json().then((data) => {
-//         if (data.error) {
-//             console.log(data.error)
-//         } else {
-//             console.log(data.location)
-//             console.log(data.forecast)
-//         }
-      
-//     })
-// })
-
-console.log('Client side javascript file is loaded!')
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
